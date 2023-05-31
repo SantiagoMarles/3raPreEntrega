@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bienvenido a nuestro eCommerce</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bienvenido.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a nuestro eCommerce</h1>
+    <nav>
+      <ul>
+        <li><a href="bienvenido.html">Inicio</a></li>
+        <li><a href="bienvenido.html">Productos</a></li>
+        <li><a href="carrito.html">Carrito de compras</a></li>
+        <li><a href="#" id="logout">Cerrar sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Hola, <span id="username"></span>!</h2>
+    <p>Bienvenido a nuestro eCommerce. Explora nuestros productos y encuentra lo que necesitas.</p>
+  </main>
+  <div id="contenedorProductos"></div>
+
+  <dialog id="dialogoConfirmacion">
+    <p id="dialogoContenido"></p>
+  </dialog>
+
+
+  <script src="bienvenido.js"></script>
+</body>
+</html>
